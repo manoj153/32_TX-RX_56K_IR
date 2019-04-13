@@ -1,0 +1,70 @@
+In archive /home/radev1/Documents/1.RA-DevProjects/rmt_nec_tx_rx/build/main/libmain.a:
+
+infrared_nec_main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nec_fill_item_header 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.nec_fill_item_bit_one 0000000c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.nec_fill_item_bit_zero 0000000c  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .literal.nec_fill_item_end 0000000c  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.nec_build_items 00000018  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.nec_tx_init 0000000c  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.rmt_example_nec_tx_task 00000040  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.app_main 00000014  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .data         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .bss          00000000  00000000  00000000  000000e0  2**0
+                  ALLOC
+ 11 .text.nec_fill_item_header 00000024  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.nec_fill_item_bit_one 00000024  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.nec_fill_item_bit_zero 00000024  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.nec_fill_item_end 00000024  00000000  00000000  0000014c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.nec_build_items 0000007a  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.nec_tx_init 00000047  00000000  00000000  000001ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.str1.4 00000038  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.rmt_example_nec_tx_task 000000c2  00000000  00000000  0000026c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.app_main 0000001f  00000000  00000000  00000330  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .debug_frame  000000d0  00000000  00000000  00000350  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_info   00000aca  00000000  00000000  00000420  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_abbrev 000002d6  00000000  00000000  00000eea  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .debug_loc    000001ca  00000000  00000000  000011c0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_aranges 00000058  00000000  00000000  0000138a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_ranges 00000048  00000000  00000000  000013e2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_line   00000514  00000000  00000000  0000142a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_str    000008a3  00000000  00000000  0000193e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .comment      0000003b  00000000  00000000  000021e1  2**0
+                  CONTENTS, READONLY
+ 29 .xtensa.info  00000038  00000000  00000000  0000221c  2**0
+                  CONTENTS, READONLY
+ 30 .xt.lit       00000040  00000000  00000000  00002254  2**0
+                  CONTENTS, RELOC, READONLY
+ 31 .xt.prop      00000210  00000000  00000000  00002294  2**0
+                  CONTENTS, RELOC, READONLY
